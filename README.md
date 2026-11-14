@@ -59,9 +59,12 @@ Speech-Engine erfordert keine Änderung am Wii-Code.
 
 ## Voraussetzungen
 
-- Windows 11 (x64), .NET 10 SDK (zum Bauen) bzw. .NET 10 Desktop Runtime (zum Ausführen)
-- Mayflash DolphinBar per USB, Wii Remote (ohne MotionPlus-Pflicht)
-- [Handy](https://github.com/cjpais/Handy) installiert (`%LOCALAPPDATA%\Handy\handy.exe`)
+- Windows 10 oder 11 (x64), getestet mit Windows 11. Die fertige .exe aus „Releases“ bringt .NET mit;
+  nur wer selbst baut, braucht das .NET 10 SDK.
+- Mayflash DolphinBar per USB, Wii Remote (ohne MotionPlus-Pflicht). Einkaufsliste mit Hinweisen zu Mikrofon
+  und Fernseher: [Hardware in MathQuest](https://github.com/Mark296688/MathQuest/blob/main/docs/hardware.md)
+- Für die Spracheingabe (B): [Handy](https://github.com/cjpais/Handy) installiert (`%LOCALAPPDATA%\Handy\handy.exe`).
+  Ohne Handy funktionieren Zeiger und Klick trotzdem.
 - Keine zusätzlichen Treiber, keine Admin-Rechte
 
 ## Bauen und Starten
