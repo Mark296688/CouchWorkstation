@@ -1,0 +1,10 @@
+# .NET build output
+bin/
+obj/
+*.user
+.vs/
+
+# Local diagnostics output
+tools/probe-run*.log
+*.csv
+__pycache__/
